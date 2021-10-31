@@ -119,3 +119,77 @@ a:hover{
 .cancel:hover{
 	opacity: .8;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*=============================================
+ESCRITORIO MEDIANO O TABLET HORIZONTAL (MD revisamos en 1024px)
+=============================================*/
+
+@media (max-width: 1199px) and (min-width: 992px){
+
+.card{
+	width: 40%;
+}
+
+
+
+}
+
+/*=============================================
+ESCRITORIO PEQUEÑO O TABLET VERTICAL (SM revisamos en 768px)
+=============================================*/
+
+@media (max-width: 991px) and (min-width: 768px){
+
+
+.card{
+	min-width: 50%;
+}
+
+
+}
+
+/*=============================================
+MOVIL (XS revisamos en 320px)
+=============================================*/
+
+@media (max-width: 767px){
+
+.card{
+	width: 95%;
+	margin-bottom: 3rem;
+}
+
+.description{
+	right: -3.2rem;
+}
+
+.contenedor-plan{
+	padding-left: 2rem;
+	right: -2rem;
+}
+
+.payment-btn{
+	right: -2.3rem;
+}
+
+.payment-btn p{
+	right: -2.5rem;
+}
+
+.cancel{
+	right: -3rem;	
+}
+	
+}
